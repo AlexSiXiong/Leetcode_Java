@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Alex_6_ZigZagConversion {
+public class Awesome_6_ZigZagConversion {
     /*
     2019.10.16 - First try
 

@@ -1,11 +1,12 @@
 import java.util.*;
 
-public class Alex_15_3Sum {
+public class Awesome_15_3Sum {
     /*
     2019.10.31
 
-    [multi pointer]
-    [Math]
+    * Multi pointer
+    * Math
+    * Set
 
     Given an array nums of n integers, are there elements a, b, c in nums such that a + b + c = 0?
     Find all unique triplets in the array which gives the sum of zero.

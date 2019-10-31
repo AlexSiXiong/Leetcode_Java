@@ -1,4 +1,4 @@
-public class Alex_8_StringToInteger {
+public class Awesome_8_StringToInteger {
     /*
     2019.10.17
 

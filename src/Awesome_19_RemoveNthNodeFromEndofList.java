@@ -1,6 +1,6 @@
 import java.util.LinkedList;
 
-public class Alex_19_RemoveNthNodeFromEndofList {
+public class Awesome_19_RemoveNthNodeFromEndofList {
     /*
     2019.10.23
     first try - review LinkedList

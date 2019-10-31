@@ -1,7 +1,7 @@
 import java.util.HashSet;
 import java.util.Set;
 
-public class Alex_3_LengthOfLongestSubstring {
+public class Awesome_3_LengthOfLongestSubstring {
     /*
     2019.10.15
     First time

@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class Alex_1_TwoSum {
+public class Awesome_1_TwoSum {
 /*
     2019.10.14
     Given an array of integers, return indices of the two numbers such that they add up to a specific target.

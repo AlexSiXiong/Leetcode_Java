@@ -1,10 +1,12 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Alex_17_LetterCombinationsofaPhoneNumber {
+public class Awesome_17_LetterCombinationsofaPhoneNumber {
     /*
     2019.10.19
     first try
+
+    * string/char manipulation
 
     Given a string containing digits from 2-9 inclusive, return all possible letter
     combinations that the number could represent.

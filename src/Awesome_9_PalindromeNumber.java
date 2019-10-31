@@ -1,4 +1,4 @@
-public class Alex_9_PalindromeNumber {
+public class Awesome_9_PalindromeNumber {
     /*
     2019.10.17
     second try

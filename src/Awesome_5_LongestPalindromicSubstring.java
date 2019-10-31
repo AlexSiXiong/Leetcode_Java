@@ -1,4 +1,4 @@
-public class Alex_5_LongestPalindromicSubstring {
+public class Awesome_5_LongestPalindromicSubstring {
     /*
     2019.10.18
     first try - failed - DP

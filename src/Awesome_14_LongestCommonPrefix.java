@@ -1,4 +1,4 @@
-public class Alex_14_LongestCommonPrefix {
+public class Awesome_14_LongestCommonPrefix {
     /*
     2019.10.20
     third try

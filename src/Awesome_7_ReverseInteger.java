@@ -1,4 +1,4 @@
-public class Alex_7_ReverseInteger {
+public class Awesome_7_ReverseInteger {
     /*
     2019.10.17
     Second Try

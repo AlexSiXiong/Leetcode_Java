@@ -1,4 +1,4 @@
-public class Alex_10_RegularExpressionMatching {
+public class Awesome_10_RegularExpressionMatching {
     /*
     2019.10.18
     first try
