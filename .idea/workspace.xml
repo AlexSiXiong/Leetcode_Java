@@ -3,20 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8cdef8d4-5414-45ce-9dca-aedab8f4a48b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Alex_10_RegularExpressionMatching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Awesome_10_RegularExpressionMatching.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Alex_11_ContainerWithMostWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Awesome_11_ContainerWithMostWater.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Alex_14_LongestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Awesome_14_LongestCommonPrefix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Alex_15_3Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Awesome_15_3Sum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Alex_17_LetterCombinationsofaPhoneNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Awesome_17_LetterCombinationsofaPhoneNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Alex_19_RemoveNthNodeFromEndofList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Awesome_19_RemoveNthNodeFromEndofList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Alex_1_TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Awesome_1_TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Alex_2_AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Awesome_2_AddTwoNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Alex_3_LengthOfLongestSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Awesome_3_LengthOfLongestSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Alex_5_LongestPalindromicSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Awesome_5_LongestPalindromicSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Alex_6_ZigZagConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Awesome_6_ZigZagConversion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Alex_7_ReverseInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Awesome_7_ReverseInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Alex_8_StringToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Awesome_8_StringToInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Alex_9_PalindromeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Awesome_9_PalindromeNumber.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +34,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Awesome_15_3Sum">
+  <component name="RunManager" selected="Application.Awesome_21_MergeTwoSortedLists">
     <configuration name="Alex_19_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Alex_19_" />
       <module name="LeetCode" />
@@ -77,8 +63,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Awesome_8_StringToInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Awesome_8_StringToInteger" />
+    <configuration name="Awesome_21_MergeTwoSortedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Awesome_21_MergeTwoSortedLists" />
       <module name="LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -86,11 +72,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Awesome_21_MergeTwoSortedLists" />
         <item itemvalue="Application.Awesome_15_3Sum" />
         <item itemvalue="Application.Alex_19_" />
         <item itemvalue="Application.Awesome_17_LetterCombinationsofaPhoneNumber" />
         <item itemvalue="Application.Awesome_10_RegularExpressionMatching" />
-        <item itemvalue="Application.Awesome_8_StringToInteger" />
       </list>
     </recent_temporary>
   </component>
