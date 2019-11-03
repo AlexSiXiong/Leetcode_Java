@@ -34,16 +34,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Awesome_21_MergeTwoSortedLists">
+  <component name="RunManager" selected="Application.Awesome_23_MergeKSortedLists">
     <configuration name="Alex_19_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Alex_19_" />
-      <module name="LeetCode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Awesome_10_RegularExpressionMatching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Awesome_10_RegularExpressionMatching" />
       <module name="LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -70,13 +63,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Awesome_23_MergeKSortedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Awesome_23_MergeKSortedLists" />
+      <module name="LeetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Awesome_23_MergeKSortedLists" />
         <item itemvalue="Application.Awesome_21_MergeTwoSortedLists" />
         <item itemvalue="Application.Awesome_15_3Sum" />
         <item itemvalue="Application.Alex_19_" />
         <item itemvalue="Application.Awesome_17_LetterCombinationsofaPhoneNumber" />
-        <item itemvalue="Application.Awesome_10_RegularExpressionMatching" />
       </list>
     </recent_temporary>
   </component>
