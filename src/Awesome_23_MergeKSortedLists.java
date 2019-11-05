@@ -95,5 +95,12 @@ public class Awesome_23_MergeKSortedLists {
         System.out.println("---");
         mergeKLists(listNodes);
 
+        double a = 64.71;
+        double b = 24.54;
+        double c = 3.91;
+        double d = 1.09;
+        double e = 5.75;
+        System.out.println(a+b+c+d+e);
+
     }
 }
