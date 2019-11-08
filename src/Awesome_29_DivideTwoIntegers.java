@@ -29,6 +29,10 @@ public class Awesome_29_DivideTwoIntegers {
 
         int origin_dividend = dividend;
         int origin_divisor = divisor;
+        System.out.println("dividend");
+        System.out.println(dividend);
+        System.out.println("divisor");
+        System.out.println(divisor);
         if (dividend > divisor) {
             return 0;
         }
@@ -39,6 +43,7 @@ public class Awesome_29_DivideTwoIntegers {
             divisor += divisor;
             dividend -= divisor;
         }
+
         //此时我们传进的是两个负数，正常情况下，它就返回正数，但我们是在用负数累加，所以要取相反数
         int a = ans + opposite(divide(origin_dividend - divisor, origin_divisor));
         if(a == Integer.MIN_VALUE){
@@ -60,7 +65,6 @@ public class Awesome_29_DivideTwoIntegers {
     }
 
     public static void main(String[] args) {
-        int x = 5;
-        System.out.println(~x);
+        System.out.println(divide(10,10));
     }
 }
