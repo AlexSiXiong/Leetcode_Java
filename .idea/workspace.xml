@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cdef8d4-5414-45ce-9dca-aedab8f4a48b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Awesome_32_LongestValidParentheses.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/Awesome_29_DivideTwoIntegers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/Awesome_29_DivideTwoIntegers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Awesome_29_DivideTwoIntegers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Awesome_29_DivideTwoIntegers.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
