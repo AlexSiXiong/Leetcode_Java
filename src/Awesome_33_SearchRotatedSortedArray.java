@@ -1,3 +1,5 @@
+import java.util.Random;
+
 public class Awesome_33_SearchRotatedSortedArray {
     /*
     2019.11.10
@@ -133,5 +135,10 @@ public class Awesome_33_SearchRotatedSortedArray {
             return search(nums, target, mid + 1, end);
         }
         return search(nums, target, start, mid - 1);
+    }
+
+    public static void main(String[] args) {
+        Random r = new Random();
+        System.out.println(r.nextInt(14) + 1);
     }
 }
