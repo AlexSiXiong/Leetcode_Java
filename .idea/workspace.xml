@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cdef8d4-5414-45ce-9dca-aedab8f4a48b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Awesome_35_SearchInsertPosition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LeetCode/Awesome_33_SearchRotatedSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/Awesome_33_SearchRotatedSortedArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Awesome_33_SearchRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Awesome_33_SearchRotatedSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Awesome_35_SearchInsertPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Awesome_35_SearchInsertPosition.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,21 +36,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Awesome_33_SearchRotatedSortedArray">
-    <configuration name="Awesome_23_MergeKSortedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Awesome_23_MergeKSortedLists" />
-      <module name="LeetCode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Awesome_24_SwapNodesinPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Awesome_24_SwapNodesinPairs" />
-      <module name="LeetCode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Awesome_34_FindFirstandLastPositionofElementinSortedArray">
     <configuration name="Awesome_29_DivideTwoIntegers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Awesome_29_DivideTwoIntegers" />
       <module name="LeetCode" />
@@ -66,6 +51,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Awesome_34_FindFirstandLastPositionofElementinSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Awesome_34_FindFirstandLastPositionofElementinSortedArray" />
+      <module name="LeetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Awesome_35_SearchInsertPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Awesome_35_SearchInsertPosition" />
+      <module name="LeetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Awesome_54_SpiralMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Awesome_54_SpiralMatrix" />
       <module name="LeetCode" />
@@ -75,11 +74,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Awesome_34_FindFirstandLastPositionofElementinSortedArray" />
+        <item itemvalue="Application.Awesome_35_SearchInsertPosition" />
         <item itemvalue="Application.Awesome_33_SearchRotatedSortedArray" />
         <item itemvalue="Application.Awesome_54_SpiralMatrix" />
         <item itemvalue="Application.Awesome_29_DivideTwoIntegers" />
-        <item itemvalue="Application.Awesome_24_SwapNodesinPairs" />
-        <item itemvalue="Application.Awesome_23_MergeKSortedLists" />
       </list>
     </recent_temporary>
   </component>

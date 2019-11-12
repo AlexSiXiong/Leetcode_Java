@@ -33,39 +33,39 @@ public class Awesome_35_SearchInsertPosition {
      */
 
     private static int searchInsert(int[] nums, int target) {
-        int index = -1;
         int left = 0;
-        int right = nums.length;
+        int right = nums.length - 1;
 
         int smallest = nums[left];
-        int biggest = nums[right - 1];
+        int biggest = nums[right];
         if (target <= smallest) {
             return 0;
         }
         if (target > biggest) {
-            return right;
+            return right + 1;
         }
 
-        while (left < right) {
+        while (left <= right) {
             int mid = (left + right) / 2;
             if (target == nums[mid]) {
                 return mid;
             }
 
             if (target < nums[mid]) {
-                right = mid;
+                right = mid - 1;
             } else {
-                left = mid + 1;
+                left = mid + 1; // Last round. It exits the loop in the next round.
             }
         }
-        index = left;
+        int index = left;
         return index;
     }
 
     public static void main(String[] args) {
-        int[] t = {1,3,5,6};
-
-        searchInsert(t, 2);
+        int[] t = {1,3};
+        int target = 2;
+        int result = searchInsert(t, target);
+        System.out.println(result);
 
     }
 }
