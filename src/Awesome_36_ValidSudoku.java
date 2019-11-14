@@ -17,7 +17,12 @@ public class Awesome_36_ValidSudoku {
     solve three sub-questions one by one
 
     checking Q.54
+
+    Todo
+    current method access the board three times 1.row 2.col 3. 3x3 box
+    - How to access the board only once to complete the task ?
      */
+
     public boolean isValidSudoku(char[][] board) {
         int col = board[0].length;
         int row = board.length;
