@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8cdef8d4-5414-45ce-9dca-aedab8f4a48b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Awesome_36_ValidSudoku.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Awesome_36_ValidSudoku.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +34,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Awesome_36_ValidSudoku">
+  <component name="RunManager" selected="Application.Awesome_62_DP_UniquePaths">
     <configuration name="Awesome_33_SearchRotatedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Awesome_33_SearchRotatedSortedArray" />
       <module name="LeetCode" />
@@ -64,8 +63,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Awesome_54_SpiralMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Awesome_54_SpiralMatrix" />
+    <configuration name="Awesome_62_DP_UniquePaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Awesome_62_DP_UniquePaths" />
       <module name="LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -73,11 +72,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Awesome_62_DP_UniquePaths" />
         <item itemvalue="Application.Awesome_36_ValidSudoku" />
         <item itemvalue="Application.Awesome_34_FindFirstandLastPositionofElementinSortedArray" />
         <item itemvalue="Application.Awesome_35_SearchInsertPosition" />
         <item itemvalue="Application.Awesome_33_SearchRotatedSortedArray" />
-        <item itemvalue="Application.Awesome_54_SpiralMatrix" />
       </list>
     </recent_temporary>
   </component>
