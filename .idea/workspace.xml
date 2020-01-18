@@ -3,12 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="8cdef8d4-5414-45ce-9dca-aedab8f4a48b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/Awesome_62_DP_UniquePaths.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/Awesome_62_DP_UniquePaths.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="LeetCode" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -34,14 +38,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Awesome_62_DP_UniquePaths">
-    <configuration name="Awesome_33_SearchRotatedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Awesome_33_SearchRotatedSortedArray" />
-      <module name="LeetCode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Awesome_70_DP_ClimbingStairs">
     <configuration name="Awesome_34_FindFirstandLastPositionofElementinSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Awesome_34_FindFirstandLastPositionofElementinSortedArray" />
       <module name="LeetCode" />
@@ -70,13 +67,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Awesome_70_DP_ClimbingStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Awesome_70_DP_ClimbingStairs" />
+      <module name="LeetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Awesome_70_DP_ClimbingStairs" />
         <item itemvalue="Application.Awesome_62_DP_UniquePaths" />
         <item itemvalue="Application.Awesome_36_ValidSudoku" />
         <item itemvalue="Application.Awesome_34_FindFirstandLastPositionofElementinSortedArray" />
         <item itemvalue="Application.Awesome_35_SearchInsertPosition" />
-        <item itemvalue="Application.Awesome_33_SearchRotatedSortedArray" />
       </list>
     </recent_temporary>
   </component>
