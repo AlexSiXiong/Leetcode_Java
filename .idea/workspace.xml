@@ -4,7 +4,6 @@
     <list default="true" id="8cdef8d4-5414-45ce-9dca-aedab8f4a48b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,19 +24,12 @@
   </component>
   <component name="ProjectId" id="1QwI7xPx6bPC2K4CE5lHnO8lY40" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Awesome_70_DP_ClimbingStairs">
+  <component name="RunManager" selected="Application.Awesome_41_FirstMissingPositive">
     <configuration name="Awesome_34_FindFirstandLastPositionofElementinSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Awesome_34_FindFirstandLastPositionofElementinSortedArray" />
       <module name="LeetCode" />
@@ -45,15 +37,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Awesome_35_SearchInsertPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Awesome_35_SearchInsertPosition" />
+    <configuration name="Awesome_36_ValidSudoku" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Awesome_36_ValidSudoku" />
       <module name="LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Awesome_36_ValidSudoku" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Awesome_36_ValidSudoku" />
+    <configuration name="Awesome_41_FirstMissingPositive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Awesome_41_FirstMissingPositive" />
       <module name="LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -75,11 +67,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Awesome_41_FirstMissingPositive" />
         <item itemvalue="Application.Awesome_70_DP_ClimbingStairs" />
         <item itemvalue="Application.Awesome_62_DP_UniquePaths" />
         <item itemvalue="Application.Awesome_36_ValidSudoku" />
         <item itemvalue="Application.Awesome_34_FindFirstandLastPositionofElementinSortedArray" />
-        <item itemvalue="Application.Awesome_35_SearchInsertPosition" />
       </list>
     </recent_temporary>
   </component>
@@ -108,5 +100,27 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1358" height="173" key="GridCell.Tab.0.bottom" timestamp="1585219915090">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state width="1358" height="173" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1585219915090" />
+    <state width="1358" height="173" key="GridCell.Tab.0.center" timestamp="1585219915089">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state width="1358" height="173" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1585219915089" />
+    <state width="1358" height="173" key="GridCell.Tab.0.left" timestamp="1585219915089">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state width="1358" height="173" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1585219915089" />
+    <state width="1358" height="173" key="GridCell.Tab.0.right" timestamp="1585219915090">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state width="1358" height="173" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1585219915090" />
+    <state x="667" y="249" key="com.intellij.ide.util.TipDialog" timestamp="1585217494630">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state x="667" y="249" key="com.intellij.ide.util.TipDialog/0.23.1440.823@0.23.1440.823" timestamp="1585217494630" />
   </component>
 </project>
