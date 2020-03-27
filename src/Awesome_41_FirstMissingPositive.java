@@ -12,7 +12,11 @@ public class Awesome_41_FirstMissingPositive {
     Input: [7,8,9,11,12]
     Output: 1
 
+    Input: [1,2,0,2,1]
+    Output: 3
 
+    Input: [1,2,2,2,2,3,1]
+    Output: 4
      */
 
     public static int[] method1(int[] nums) {
@@ -34,40 +38,67 @@ public class Awesome_41_FirstMissingPositive {
                 }
             }
         }
-
-
         return nums;
     }
 
     public static int method2(int[] nums) {
-        if(nums == null || nums.length == 0){
-            return 1;
-        }
+        // 不断的往后找
 
-        for(int i = 0; i < nums.length; i++){
-            while(  nums[i] <= nums.length &&
-                    nums[i] > 0 &&
-                    nums[i] != nums[nums[i] - 1]){
-                swap(nums, i, nums[i] - 1);
+        int length = nums.length;
+        int temp;
+
+        for (int i = 0; i < length - 1; i++) {
+            for (int j = 0; j < length - 1 - i; j++) {
+                if (nums[j] > nums[j + 1]) {
+                    temp = nums[j];
+                    nums[j] = nums[j+1];
+                    nums[j+1] = temp;
+                }
             }
-
-        }
-        int i = 0;
-
-        while(i < nums.length && nums[i] == i + 1){
-            i++;
         }
 
-        return i + 1;
+        int anchor = 1;
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] <= 0) {
+            } else if (nums[i] > 0) {
+                if (nums[i] == anchor) {
+                    anchor+=1;
+                } else if (i >= 1 && nums[i] == nums[i - 1]){
+                    // Boundary !!
+                }
+                else {
+                    break;
+                }
+            }
+        }
+        return anchor;
     }
 
-    private static void swap(int[] arr, int i, int j){
-        int temp = arr[i];
-        arr[i] = arr[j];
-        arr[j] = temp;
-    }
 
 
     public static void main(String[] args) {
+        int[] a = {1,2,2,2,2,3,1};
+        int[] nums = method1(a);
+
+        // 0,1,1,2,2
+        // 0,3,3,4,4
+        int anchor = 1;
+        for (int i = 0; i < nums.length; i++) {
+            System.out.println("nums["+i+"] " +nums[i]);
+            System.out.println("anchor "+ anchor);
+            if (nums[i] <= 0) {
+            } else if (nums[i] > 0) {
+                if (nums[i] == anchor) {
+                    anchor+=1;
+                } else if (i >= 1 && nums[i] == nums[i - 1]){
+
+                }
+                else {
+                    break;
+                }
+            }
+        }
+        System.out.println("final " + anchor);
+
     }
 }
