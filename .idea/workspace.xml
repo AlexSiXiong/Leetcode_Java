@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8cdef8d4-5414-45ce-9dca-aedab8f4a48b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/Awesome_41_FirstMissingPositive.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/Awesome_41_FirstMissingPositive.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Awesome_41_FirstMissingPositive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Awesome_41_FirstMissingPositive.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +29,9 @@
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Awesome_41_FirstMissingPositive">
-    <configuration name="Awesome_34_FindFirstandLastPositionofElementinSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Awesome_34_FindFirstandLastPositionofElementinSortedArray" />
+  <component name="RunManager" selected="Application.Awesome_26_RemoveDuplicatesFromSortedArray">
+    <configuration name="Awesome_26_RemoveDuplicatesFromSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Awesome_26_RemoveDuplicatesFromSortedArray" />
       <module name="LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -69,11 +67,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Awesome_26_RemoveDuplicatesFromSortedArray" />
         <item itemvalue="Application.Awesome_41_FirstMissingPositive" />
         <item itemvalue="Application.Awesome_70_DP_ClimbingStairs" />
         <item itemvalue="Application.Awesome_62_DP_UniquePaths" />
         <item itemvalue="Application.Awesome_36_ValidSudoku" />
-        <item itemvalue="Application.Awesome_34_FindFirstandLastPositionofElementinSortedArray" />
       </list>
     </recent_temporary>
   </component>
@@ -104,25 +102,25 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1358" height="173" key="GridCell.Tab.0.bottom" timestamp="1585222204261">
+    <state width="1358" height="173" key="GridCell.Tab.0.bottom" timestamp="1585390451460">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
-    <state width="1358" height="173" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1585222204261" />
-    <state width="1358" height="173" key="GridCell.Tab.0.center" timestamp="1585222204260">
+    <state width="1358" height="173" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1585390451460" />
+    <state width="1358" height="173" key="GridCell.Tab.0.center" timestamp="1585390451459">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
-    <state width="1358" height="173" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1585222204260" />
-    <state width="1358" height="173" key="GridCell.Tab.0.left" timestamp="1585222204259">
+    <state width="1358" height="173" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1585390451459" />
+    <state width="1358" height="173" key="GridCell.Tab.0.left" timestamp="1585390451458">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
-    <state width="1358" height="173" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1585222204259" />
-    <state width="1358" height="173" key="GridCell.Tab.0.right" timestamp="1585222204261">
+    <state width="1358" height="173" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1585390451458" />
+    <state width="1358" height="173" key="GridCell.Tab.0.right" timestamp="1585390451460">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
-    <state width="1358" height="173" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1585222204261" />
-    <state x="667" y="249" key="com.intellij.ide.util.TipDialog" timestamp="1585303782441">
+    <state width="1358" height="173" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1585390451460" />
+    <state x="667" y="249" key="com.intellij.ide.util.TipDialog" timestamp="1585389215388">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
-    <state x="667" y="249" key="com.intellij.ide.util.TipDialog/0.23.1440.823@0.23.1440.823" timestamp="1585303782441" />
+    <state x="667" y="249" key="com.intellij.ide.util.TipDialog/0.23.1440.823@0.23.1440.823" timestamp="1585389215388" />
   </component>
 </project>
