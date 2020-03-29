@@ -157,6 +157,8 @@ public class Awesome_43_MultiplyStrings {
     }
 
     public static void main(String[] args) {
-        System.out.println(method2("123","10"));
+
+//        System.out.println(method2("123","10"));
+        System.out.println(5/1);
     }
 }
