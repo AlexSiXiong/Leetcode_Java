@@ -33,8 +33,6 @@ public class Awesome_46_Permutations {
     */
 
     private static List<List<Integer>> method1(int[] nums) {
-
-        List<List<Integer>> final_result = new ArrayList<>();
         List<Integer> initial = new ArrayList<>();
 
         List<List<Integer>> current = new ArrayList<>();
@@ -73,6 +71,26 @@ public class Awesome_46_Permutations {
         return result;
     }
 
+    private static List<List<Integer>> method2(int[] nums) {
+        List<List<Integer>> all = new ArrayList<>();
+        all.add(new ArrayList<>());
+        //在上边的基础上只加上最外层的 for 循环就够了，代表每次新添加的数字
+        for (int i = 0; i < nums.length; i++) {
+            int current_size = all.size();
+            for (int j = 0; j < current_size; j++) {
+                for (int k = 0; k <= i; k++) {
+                    List<Integer> temp = new ArrayList<>(all.get(j));
+                    temp.add(k, nums[i]);
+                    all.add(temp);
+                }
+            }
+            for (int j = 0; j < current_size; j++) {
+                all.remove(0);
+            }
+        }
+        return all;
+    }
+
     public static void main(String[] args) {
         List<Integer> temp = new ArrayList<>();
 //        temp.add(1);
@@ -90,6 +108,6 @@ public class Awesome_46_Permutations {
 //        System.out.println(big);
 
         int[] a = {1,2};
-        System.out.println(method1(a));
+        System.out.println(method2(a));
     }
 }
