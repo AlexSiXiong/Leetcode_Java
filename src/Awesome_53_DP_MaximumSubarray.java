@@ -81,6 +81,7 @@ public class Awesome_53_DP_MaximumSubarray {
         int[] dp = new int[n];
         int max = Integer.MIN_VALUE;
 
+
         for (int len = 1; len <= n; len++) {
             // 元素的个数，一共四个
             System.out.println();
@@ -97,7 +98,33 @@ public class Awesome_53_DP_MaximumSubarray {
             }
         }
 
+        // 上面第一个for循环记录元素的个数
+        // 第二个for循环把数字放到数组中，考虑到数组的index，注意-1
         return max;
+    }
+
+    private static int method5(int[] nums) {
+        // this is a Divide and Conquer Approach
+        if (nums.length == 0) return 0;
+        return helper(nums, 0, nums.length - 1);
+    }
+
+    public static int helper(int[] nums, int left, int right) {
+        if (left >= right) return nums[left];
+        int mid = left + (right - left) / 2;
+        int lmax = helper(nums, left, mid - 1);
+        int rmax = helper(nums, mid + 1, right);
+        int mmax = nums[mid], t = mmax;
+        for (int i = mid - 1; i >= left; --i) {
+            t += nums[i];
+            mmax = Math.max(mmax, t);
+        }
+        t = mmax;
+        for (int i = mid + 1; i <= right; ++i) {
+            t += nums[i];
+            mmax = Math.max(mmax, t);
+        }
+        return Math.max(mmax, Math.max(lmax, rmax));
     }
 
     public static void main(String[] args) {

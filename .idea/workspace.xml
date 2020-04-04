@@ -30,7 +30,7 @@
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Awesome_53_DP_MaximumSubarray">
+  <component name="RunManager" selected="Application.Awesome_283_MoveZeros">
     <configuration name="Awesome_136_SingleNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Awesome_136_SingleNumber" />
       <module name="LeetCode" />
@@ -40,6 +40,13 @@
     </configuration>
     <configuration name="Awesome_202_HappyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Awesome_202_HappyNumber" />
+      <module name="LeetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Awesome_283_MoveZeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Awesome_283_MoveZeros" />
       <module name="LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -59,26 +66,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practices.SumStrings" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Practices.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Awesome_283_MoveZeros" />
         <item itemvalue="Application.Awesome_53_DP_MaximumSubarray" />
         <item itemvalue="Application.Awesome_202_HappyNumber" />
         <item itemvalue="Application.Awesome_136_SingleNumber" />
         <item itemvalue="Application.Awesome_46_Permutations" />
-        <item itemvalue="Application.SumStrings" />
       </list>
     </recent_temporary>
   </component>
@@ -109,34 +103,34 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1313" height="200" key="GridCell.Tab.0.bottom" timestamp="1585908628045">
+    <state width="1313" height="199" key="GridCell.Tab.0.bottom" timestamp="1585985972710">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state width="1398" height="124" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585475580927" />
-    <state width="1313" height="200" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1585908628045" />
+    <state width="1313" height="199" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1585985972710" />
     <state width="1313" height="138" key="GridCell.Tab.0.bottom/0.23.1440.824@0.23.1440.824" timestamp="1585566879529" />
-    <state width="1313" height="200" key="GridCell.Tab.0.center" timestamp="1585908628044">
+    <state width="1313" height="199" key="GridCell.Tab.0.center" timestamp="1585985972709">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state width="1398" height="124" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585475580927" />
-    <state width="1313" height="200" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1585908628044" />
+    <state width="1313" height="199" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1585985972709" />
     <state width="1313" height="138" key="GridCell.Tab.0.center/0.23.1440.824@0.23.1440.824" timestamp="1585566879528" />
-    <state width="1313" height="200" key="GridCell.Tab.0.left" timestamp="1585908628044">
+    <state width="1313" height="199" key="GridCell.Tab.0.left" timestamp="1585985972708">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state width="1398" height="124" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585475580926" />
-    <state width="1313" height="200" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1585908628044" />
+    <state width="1313" height="199" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1585985972708" />
     <state width="1313" height="138" key="GridCell.Tab.0.left/0.23.1440.824@0.23.1440.824" timestamp="1585566879528" />
-    <state width="1313" height="200" key="GridCell.Tab.0.right" timestamp="1585908628045">
+    <state width="1313" height="199" key="GridCell.Tab.0.right" timestamp="1585985972709">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state width="1398" height="124" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585475580927" />
-    <state width="1313" height="200" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1585908628045" />
+    <state width="1313" height="199" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1585985972709" />
     <state width="1313" height="138" key="GridCell.Tab.0.right/0.23.1440.824@0.23.1440.824" timestamp="1585566879529" />
-    <state x="667" y="249" key="com.intellij.ide.util.TipDialog" timestamp="1585904019124">
+    <state x="667" y="249" key="com.intellij.ide.util.TipDialog" timestamp="1585984706122">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
-    <state x="667" y="249" key="com.intellij.ide.util.TipDialog/0.23.1440.823@0.23.1440.823" timestamp="1585904019124" />
+    <state x="667" y="249" key="com.intellij.ide.util.TipDialog/0.23.1440.823@0.23.1440.823" timestamp="1585984706122" />
     <state x="804" y="171" width="670" height="676" key="search.everywhere.popup" timestamp="1585555881200">
       <screen x="0" y="23" width="1440" height="824" />
     </state>
