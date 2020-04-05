@@ -60,6 +60,7 @@ public class Awesome_283_MoveZeros {
             return;
         }
 
+
         int index = 0;
         for(int digit : nums){
             if(digit != 0){
