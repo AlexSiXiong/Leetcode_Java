@@ -27,7 +27,12 @@ public class Awesome_122_BestTimeBuySellStock_II {
      */
 
     private static int method1(int[] prices) {
-        if (prices.length == 0 || prices.length == 1) {
+        // 滑窗法
+        // 要考虑边界情况
+
+        // 1. 二分法
+        // 2. 核心策略：只有在相邻3天股价为 <小-大-小> 才卖出
+        if (prices.length < 2) {
             return 0;
         }
 
@@ -38,6 +43,59 @@ public class Awesome_122_BestTimeBuySellStock_II {
         }
 
         int sum = 0;
+        int buy = 0;
+        boolean brought = false;
+        int local_max = 0;
+        for (int i = 2; i < prices.length; i++) {
+            int first = prices[i - 2];
+            int second = prices[i - 1];
+            int third = prices[i];
+
+            if (first < second) {
+                if (second > third) {
+                    if (brought) {
+                        sum += second - buy;
+                        buy = 0;
+                        brought = false;
+                    } else {
+                        sum += second - first;
+                    }
+                } else { // second <= third
+                    if (! brought) {
+                        buy = first;
+                        local_max = third;
+                        brought = true;
+                        if (i == prices.length - 1) {
+                            sum += local_max - buy;
+                            brought = false;
+                        }
+                    } else {
+                        if (third > local_max) {
+                            local_max = third;
+                            if (i == prices.length - 1) {
+                                sum += local_max - buy;
+                                brought = false;
+                            }
+                        }
+                    }
+                }
+            }
+
+            if (first >= second) {
+
+                if (i == prices.length - 1) {
+                    if (third > second) {
+                        sum += third - second;
+                    }
+                }
+                // Corner cases:
+                // such as {2,6,6,2,1}
+                if (brought && first == second) {
+                    sum += local_max - buy;
+                    brought = false;
+                }
+            }
+        }
         return sum;
     }
 
@@ -47,7 +105,8 @@ public class Awesome_122_BestTimeBuySellStock_II {
 
         // 这是在网上看到的
         // 不知道为什么这样也可以，因为这个代码从语义上直接说说不通
-        // 据说是贪心算法
+        // 作者说是贪心算法
+        // 实质也是数学
 
         int sum = 0;
         for (int i = 1; i < prices.length; i++) {
@@ -59,9 +118,38 @@ public class Awesome_122_BestTimeBuySellStock_II {
         return sum;
     }
 
-    public static void main(String[] args) {
-        int[] price = {3,5,3,5};
+    private static int method3(int[] prices) {
+        int sum = 0;
+        int i = 0;
+        while (i < prices.length) {
 
+            while(i < prices.length - 1 && prices[i] >= prices[i + 1]) {
+                // 如果股价一直下降
+                i++;
+            }
+            int min = prices[i];
+            i++;
+
+            while(i < prices.length - 1 && prices[i] <= prices[i + 1]) {
+                // 如果股价一直上升
+                i++;
+            }
+
+            if (i < prices.length) {
+                int max = prices[i];
+                sum += (max - min);
+            } else {
+                sum += 0;
+            }
+        }
+        return sum;
+    }
+
+
+
+    public static void main(String[] args) {
+//        int[] price = {5,2,3,2,6,6,2,9,1,0,7,4,5,0};
+        int[] price = {2,6,7,2,1};
         System.out.println(method1(price));
     }
 }

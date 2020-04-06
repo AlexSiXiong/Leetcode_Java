@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cdef8d4-5414-45ce-9dca-aedab8f4a48b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/Awesome_283_MoveZeros.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/Awesome_283_MoveZeros.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Awesome_283_MoveZeros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Awesome_283_MoveZeros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/Awesome_122_BestTimeBuySellStock_II.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/Awesome_122_BestTimeBuySellStock_II.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Awesome_122_BestTimeBuySellStock_II.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Awesome_122_BestTimeBuySellStock_II.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +31,7 @@
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Awesome_122_BestTimeBuySellStock_II">
+  <component name="RunManager" selected="Application.Awesome_49_GroupAnagrams">
     <configuration name="Awesome_122_BestTimeBuySellStock_II" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Awesome_122_BestTimeBuySellStock_II" />
       <module name="LeetCode" />
@@ -48,8 +46,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Awesome_53_DP_MaximumSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Awesome_53_DP_MaximumSubarray" />
+    <configuration name="Awesome_49_GroupAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Awesome_49_GroupAnagrams" />
       <module name="LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -71,11 +69,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Awesome_49_GroupAnagrams" />
         <item itemvalue="Application.Awesome_122_BestTimeBuySellStock_II" />
         <item itemvalue="Application.Test2" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Awesome_283_MoveZeros" />
-        <item itemvalue="Application.Awesome_53_DP_MaximumSubarray" />
       </list>
     </recent_temporary>
   </component>
@@ -106,34 +104,50 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1313" height="199" key="GridCell.Tab.0.bottom" timestamp="1586086092631">
+    <state width="1316" height="183" key="GridCell.Tab.0.bottom" timestamp="1586164261893">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state width="1398" height="124" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585475580927" />
-    <state width="1313" height="199" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1586086092631" />
+    <state width="1316" height="183" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1586164261893" />
     <state width="1313" height="138" key="GridCell.Tab.0.bottom/0.23.1440.824@0.23.1440.824" timestamp="1585566879529" />
-    <state width="1313" height="199" key="GridCell.Tab.0.center" timestamp="1586086092630">
+    <state width="1316" height="183" key="GridCell.Tab.0.center" timestamp="1586164261891">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state width="1398" height="124" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585475580927" />
-    <state width="1313" height="199" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1586086092630" />
+    <state width="1316" height="183" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1586164261891" />
     <state width="1313" height="138" key="GridCell.Tab.0.center/0.23.1440.824@0.23.1440.824" timestamp="1585566879528" />
-    <state width="1313" height="199" key="GridCell.Tab.0.left" timestamp="1586086092629">
+    <state width="1316" height="183" key="GridCell.Tab.0.left" timestamp="1586164261888">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state width="1398" height="124" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585475580926" />
-    <state width="1313" height="199" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1586086092629" />
+    <state width="1316" height="183" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1586164261888" />
     <state width="1313" height="138" key="GridCell.Tab.0.left/0.23.1440.824@0.23.1440.824" timestamp="1585566879528" />
-    <state width="1313" height="199" key="GridCell.Tab.0.right" timestamp="1586086092631">
+    <state width="1316" height="183" key="GridCell.Tab.0.right" timestamp="1586164261892">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state width="1398" height="124" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585475580927" />
-    <state width="1313" height="199" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1586086092631" />
+    <state width="1316" height="183" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1586164261892" />
     <state width="1313" height="138" key="GridCell.Tab.0.right/0.23.1440.824@0.23.1440.824" timestamp="1585566879529" />
-    <state x="667" y="249" key="com.intellij.ide.util.TipDialog" timestamp="1586054290496">
+    <state width="1316" height="262" key="GridCell.Tab.1.bottom" timestamp="1586144429845">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
-    <state x="667" y="249" key="com.intellij.ide.util.TipDialog/0.23.1440.823@0.23.1440.823" timestamp="1586054290496" />
+    <state width="1316" height="262" key="GridCell.Tab.1.bottom/0.23.1440.823@0.23.1440.823" timestamp="1586144429845" />
+    <state width="1316" height="262" key="GridCell.Tab.1.center" timestamp="1586144429845">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state width="1316" height="262" key="GridCell.Tab.1.center/0.23.1440.823@0.23.1440.823" timestamp="1586144429845" />
+    <state width="1316" height="262" key="GridCell.Tab.1.left" timestamp="1586144429844">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state width="1316" height="262" key="GridCell.Tab.1.left/0.23.1440.823@0.23.1440.823" timestamp="1586144429844" />
+    <state width="1316" height="262" key="GridCell.Tab.1.right" timestamp="1586144429845">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state width="1316" height="262" key="GridCell.Tab.1.right/0.23.1440.823@0.23.1440.823" timestamp="1586144429845" />
+    <state x="667" y="249" key="com.intellij.ide.util.TipDialog" timestamp="1586162411803">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state x="667" y="249" key="com.intellij.ide.util.TipDialog/0.23.1440.823@0.23.1440.823" timestamp="1586162411803" />
     <state x="804" y="171" width="670" height="676" key="search.everywhere.popup" timestamp="1586057686170">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
